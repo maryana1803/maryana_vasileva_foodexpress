@@ -7,7 +7,7 @@
 | Файл | Содержание |
 |---|---|
 | `db/schema/01_schema.sql` | ENUM, таблицы, ограничения, индексы (FOOD-101) |
-| `db/routines/02_routines.sql` | Процедуры, функции, триггеры, представление (FOOD-102–108) |
+| `db/schema/02_routines.sql` | Процедуры, функции, триггеры, представление (FOOD-102–108) |
 | `db/schema/grants.sql` | Роль `inspector` и права доступа (FOOD-109) |
 | `db/constraints.md` | Ограничения и ссылки на бизнес-правила |
 | `db/tests.md` | SQL-запросы для проверки |
@@ -21,7 +21,7 @@
 В пустой базе последовательно выполнить:
 
 1. `db/schema/01_schema.sql`
-2. `db/routines/02_routines.sql`
+2. `db/schema/02_routines.sql`
 3. `db/schema/grants.sql` — под ролью с правами администратора
 
 Для заполнения тестовыми данными:
